@@ -966,10 +966,10 @@ address p {
 }
 
 .intro-slider .slick-dots button {
-	-webkit-transition: -webkit-transform .3s ease-in-out;
+	-webkit-transition: -webkit-transform .3s ease-in-out, background-color .3s ease-in-out;
 	transition: -webkit-transform .3s ease-in-out;
 	transition: transform .3s ease-in-out;
-	transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+	transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out, background-color .3s ease-in-out;
 	border: none;
 	background-color: transparent;
 	font-size: 0;
@@ -979,6 +979,10 @@ address p {
 	border-radius: 50%;
 	outline: none;
 	padding: 0;
+}
+
+.intro-slider .slick-dots button:hover {
+	background-color: #ff792b;
 }
 
 .intro-slider .slick-dots .slick-active button {
