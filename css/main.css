@@ -751,6 +751,12 @@ input[type="submit"] {
 	height: 38px;
 	outline: none;
 	z-index: 1000;
+	-webkit-transition: opacity .3s ease-in-out;
+	transition: opacity .3s ease-in-out;
+}
+
+.slick-arrow:hover {
+	opacity: .7;
 }
 
 .slick-arrow.slick-next {
