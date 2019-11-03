@@ -12,6 +12,7 @@ function initSlickCarousel() {
 		arrows: false,
 		dots: true,
 		autoplay: true,
+		vertical: true,
 		dotsClass: 'slick-dots'
 	});
 
